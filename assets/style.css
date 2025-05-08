@@ -182,14 +182,14 @@ p {
   color: #707070;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
 
 .section__menu-item h3 {
   color: #171717;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
   display: flex;
   gap: 8px;
@@ -208,7 +208,7 @@ p {
   text-align: center;
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  line-height: 16px;
   letter-spacing: 0.24px;
   margin: 0;
 }
@@ -235,7 +235,7 @@ p {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
 }
 
@@ -288,7 +288,7 @@ p {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   letter-spacing: -0.24px;
 }
 
@@ -334,7 +334,7 @@ p {
   align-items: flex-end;
   margin: 24px 0;
   border: none;
-  border: 1px solid #d6d6d6;
+  border: 0px solid #a5a5a5;
 }
 
 .oder__text1 {
@@ -352,7 +352,7 @@ p {
   color: #707070;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
 
 .oder__text-item1 span {
@@ -360,7 +360,7 @@ p {
   text-align: right;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
 }
 
@@ -368,7 +368,7 @@ p {
   color: #707070;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
 
 .oder__text-span span {
@@ -378,7 +378,7 @@ p {
   text-align: right;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
 }
 
@@ -423,7 +423,7 @@ p {
   color: #707070;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
 
 .oder__text-item3 span {
@@ -431,7 +431,7 @@ p {
   text-align: right;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
 }
 
@@ -452,7 +452,7 @@ p {
   color: #171717;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
 }
 
@@ -460,7 +460,7 @@ p {
   color: #171717;
   font-size: 24px;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   letter-spacing: -0.24px;
 }
 
@@ -490,7 +490,7 @@ p {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
 }
 
@@ -512,7 +512,7 @@ p {
   text-align: center;
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
+  line-height: 16px;
   letter-spacing: 0.24px;
 }
 
@@ -537,7 +537,7 @@ p {
   width: 100%;
   font-size: 12px;
   font-weight: 600;
-  line-height: 16px; /* 133.333% */
+  line-height: 16px;
   letter-spacing: 0.36px;
   text-decoration: none;
 }
@@ -546,7 +546,7 @@ p {
   display: block;
   width: 100%;
   height: 1px;
-  background-color: #d6d6d6;
+  background-color: #a4a2a2;
   position: absolute;
   left: 0;
   right: 0;
@@ -568,7 +568,7 @@ p {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.16px;
 }
 
@@ -602,7 +602,7 @@ p {
   .section__content {
     font-size: 40px;
     font-weight: 600;
-    line-height: 48px; /* 120% */
+    line-height: 48px;
     letter-spacing: -0.4px;
   }
   .section__frame-item {
@@ -626,7 +626,7 @@ p {
   .section__menu-item h3 {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.16px;
   }
 
@@ -636,6 +636,13 @@ p {
 
   .section__text-content {
     display: none;
+  }
+
+  .icon-large {
+    display: none;
+  }
+  .header__menu {
+    gap: 16px;
   }
 }
 
@@ -654,7 +661,7 @@ p {
     display: none;
   }
 
-  .bolck__menu {
+  .block__text-content {
     display: none;
   }
 
@@ -747,14 +754,14 @@ p {
     color: #707070;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
   }
   .block__text-item1 span {
     color: #171717;
     text-align: right;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.16px;
   }
 
@@ -793,7 +800,7 @@ p {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.16px;
   }
 
@@ -815,7 +822,7 @@ p {
     color: #707070;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
   }
 
   .element__text-span span {
@@ -825,7 +832,7 @@ p {
     text-align: right;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.16px;
   }
 
@@ -834,7 +841,7 @@ p {
     text-align: right;
     font-size: 12px;
     font-weight: 400;
-    line-height: 16px; /* 133.333% */
+    line-height: 16px;
     letter-spacing: 0.24px;
   }
 
@@ -864,7 +871,7 @@ p {
     color: #707070;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
   }
 
   .element__text-item3 span {
@@ -872,7 +879,7 @@ p {
     text-align: right;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.16px;
   }
 
@@ -894,7 +901,7 @@ p {
     color: #171717;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.16px;
   }
 
@@ -902,7 +909,7 @@ p {
     color: #171717;
     font-size: 24px;
     font-weight: 500;
-    line-height: 36px; /* 150% */
+    line-height: 36px;
     letter-spacing: -0.24px;
   }
 
@@ -931,7 +938,7 @@ p {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.16px;
   }
 
@@ -953,7 +960,7 @@ p {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
-    line-height: 16px; /* 133.333% */
+    line-height: 16px;
     letter-spacing: 0.24px;
   }
 
