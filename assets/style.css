@@ -142,7 +142,6 @@ p {
   display: flex;
   flex-direction: column;
   gap: 90px;
-  padding: 0 9px 0 0px;
 }
 
 .section__content h1 {
@@ -838,6 +837,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
+    border-top: #a4a4a4 1px solid;
   }
 
   .element__text-item2 p {
@@ -1028,6 +1028,12 @@ p {
 
   .toggle-tax.active {
     display: block;
+  }
+  .box-content .row {
+    padding: 0;
+  }
+  .box-content .col-lg-5 {
+    padding: 0x;
   }
 }
 
