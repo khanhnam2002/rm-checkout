@@ -662,7 +662,7 @@ p {
     display: none;
   }
 
-  .block__text-content {
+  .bolck__menu {
     display: none;
   }
 
@@ -693,6 +693,9 @@ p {
 }
 
 @media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
   .section__content h1 {
     display: none;
   }
@@ -1022,7 +1025,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .element__text {
     display: none;
   }
