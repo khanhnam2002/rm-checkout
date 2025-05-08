@@ -3,7 +3,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fafafa;
-  padding-bottom: 40px;
 }
 
 .row > * {
@@ -24,7 +23,7 @@ p {
 
 .header {
   display: flex;
-  padding: 16px 24px 24px 24px;
+  padding: 12px 16px 12px 24px;
   align-items: center;
   justify-content: space-between;
 }
@@ -266,13 +265,14 @@ p {
   align-items: flex-start;
   gap: 72px; */
   padding: 0 24px;
+  margin-bottom: 160px;
 }
 
 .oder__card {
   display: flex;
   flex-direction: column;
   border-radius: 32px;
-  margin-top: 40px;
+  margin-top: 24px;
   background: #fff;
   padding: 62px 40px 40px 40px;
   box-shadow: 0px 12px 40px -8px rgba(0, 0, 0, 0.08);
@@ -631,6 +631,14 @@ p {
     letter-spacing: 0.16px;
   }
 
+  .box-content {
+    margin: 0;
+  }
+
+  .footer__text-content {
+    margin-bottom: 160px;
+  }
+
   .offset-1 {
     margin: 0;
   }
@@ -771,6 +779,16 @@ p {
 
   .footer__text-content {
     margin-top: 64px;
+    margin-bottom: 8px;
+  }
+
+  .footer__trusted-text {
+    font-size: 16px;
+  }
+
+  .element__paypal-box {
+    font-size: 12px;
+    text-decoration: none;
   }
 
   .modifier__trusted-logo {
@@ -813,7 +831,7 @@ p {
     flex-direction: column;
     margin-top: 40px;
     background: #fff;
-    padding: 64px 24px 24px 24px;
+    padding: 24px 24px 24px 24px;
     box-shadow: 0px 12px 40px -8px rgba(0, 0, 0, 0.08);
     position: sticky;
     z-index: 999;
