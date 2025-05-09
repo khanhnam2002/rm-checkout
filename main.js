@@ -7,15 +7,17 @@ $(".btn3").click(function () {
   $(".toggle-tax").slideToggle("slow");
 });
 
-const menuToggle = document.querySelector(".menu-toggle");
+const rm__hamburger = document.querySelector(".rm__hamburger");
 const menuBox = document.querySelector(".menu-box");
 
-menuToggle.addEventListener("click", function () {
+rm__hamburger.addEventListener("click", function () {
   menuBox.classList.toggle("active");
 
   if (menuBox.classList.contains("active")) {
-    $("body").css("overflow", "hidden"); // Tắt cuộn
+    $("body").css("overflow", "hidden");
+    // Tắt cuộn
   } else {
-    $("body").css("overflow", "auto"); // Bật cuộn
+    $("body").css("overflow", "auto");
+    // Bật cuộn
   }
 });
