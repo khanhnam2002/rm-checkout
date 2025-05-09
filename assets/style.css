@@ -35,6 +35,7 @@ p {
   justify-content: center;
   align-items: flex-end;
   gap: 3.917px;
+  cursor: pointer;
 }
 
 .header__menu {
@@ -53,6 +54,7 @@ p {
   font-weight: 400;
   line-height: 24px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .header__list-menu {
@@ -114,9 +116,9 @@ p {
   position: absolute;
   top: 64px;
   right: 0px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgb(250 250 250 / 94%);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 16px 0px 16px 46px;
+  padding: 16px 36px 16px 36px;
   border-radius: 8px;
   z-index: 1000;
   width: 100%;
@@ -897,7 +899,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: #a4a4a4 1px solid;
+    border-top: 1px solid #e0e0e0;
   }
 
   .element__text-item2 p {
