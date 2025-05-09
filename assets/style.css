@@ -23,7 +23,7 @@ p {
 
 .header {
   display: flex;
-  padding: 12px 16px 12px 24px;
+  padding: 20px 16px 12px 24px;
   align-items: center;
   justify-content: space-between;
 }
@@ -132,6 +132,7 @@ p {
 
 .menu-box ul li {
   margin-bottom: 8px;
+  margin-top: 20px;
 }
 
 .menu-box ul li a {
@@ -170,7 +171,7 @@ p {
 .auth-buttons .login {
   background: #f4f4f4;
   border: none;
-  padding: 10px 63px;
+  padding: 10px 54px;
   border-radius: 20px;
   font-weight: bold;
   color: #333;
@@ -179,7 +180,7 @@ p {
 .auth-buttons .signup {
   background: #333;
   border: none;
-  padding: 10px 54px;
+  padding: 10px 45px;
   border-radius: 20px;
   font-weight: bold;
   color: white;
@@ -647,6 +648,10 @@ p {
   align-self: stretch;
 }
 
+.submenu {
+  position: sticky;
+}
+
 @media (max-width: 1199px) {
   .section {
     display: flex;
@@ -719,7 +724,7 @@ p {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .header__menu {
     display: none;
   }
@@ -744,7 +749,7 @@ p {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
   .header__list-menu {
     display: none;
   }
@@ -1089,6 +1094,20 @@ p {
   }
   .box-content .col-lg-5 {
     padding: 0x;
+  }
+
+  .auth-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    padding: 0 20px 0 0;
+  }
+
+  .auth-buttons .signup,
+  .auth-buttons .login {
+    width: 100%;
+    text-align: center;
   }
 }
 
